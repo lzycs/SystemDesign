@@ -2,7 +2,7 @@
 	<view style="" v-if="myData">
 		<uv-list>
 			<uv-list-item title="姓名:" right-text="小美"> </uv-list-item>
-			<uv-list-item title="学号:" right-text="17723117616"> </uv-list-item>
+			<uv-list-item title="账号:" right-text="17723117616"> </uv-list-item>
 			<uv-list-item title="手机号:" right-text="17723117616"> </uv-list-item>
 		</uv-list>
 		<!-- 

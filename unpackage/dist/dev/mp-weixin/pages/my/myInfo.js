@@ -64,7 +64,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       ["right-text"]: "小美"
     }),
     c: common_vendor.p({
-      title: "学号:",
+      title: "账号:",
       ["right-text"]: "17723117616"
     }),
     d: common_vendor.p({
