@@ -64,8 +64,8 @@
 		data() {
 			return {
 				multiArray: [
-					['卡片、证件类', '生活用品', '数码产品', '美妆护肤类', '衣服物品类', '饰品', '文娱', '其它'],
-					['身份证', '校园卡', '学生证', '水卡', '公交卡', '银行卡', '其它']
+					['动画', '漫画', '游戏', '小说', '同人作品', '音乐', '文化活动', '周边商品'],
+					['动作', '冒险', '喜剧', '爱情', '科幻', '奇幻']
 				],
 				multiIndex: [0, 0],
 				select: false,
@@ -129,33 +129,6 @@
 								// 如果有任何文件保存失败，这里将捕获到错误  
 								console.error('保存文件时出错：', error);
 							});
-
-						// await this.imgList.push(...save_arr)
-
-						// const tempFiles = chooseImageRes.tempFiles;
-
-						// tempFiles.forEach(item => {
-						// 	uni.showLoading({
-						// 		title: '上传中'
-						// 	});
-						// 	uni.uploadFile({
-						// 		//cloudPath: `publish/${Math.floor(Math.random() * 10000)}-${new Date().getTime()}.png`,
-						// 		//url:'http://127.0.0.1:5000/',
-						// 		filePath: item.path,
-						// 		success: (uploadFileRes) => {
-						// 			console.log('上传成功', uploadFileRes);
-						// 			imgList.unshift(uploadFileRes.fileID);
-						// 			console.log(imgList);
-
-						// 			this.imgList = imgList;
-						// 			uni.hideLoading();
-						// 		},
-						// 		fail: (error) => {
-						// 			console.error('上传失败', error);
-						// 			uni.hideLoading();
-						// 		}
-						// 	});
-						// });
 					},
 					fail: (error) => {
 						console.error('选择图片失败', error);
@@ -266,30 +239,29 @@
 					case 0: //拖动第1列
 						switch (this.multiIndex[0]) {
 							case 0:
-								this.multiArray[1] = ['身份证', '校园卡', '学生证', '水卡', '公交卡', '银行卡', '其它'];
+								this.multiArray[1] = ['动作', '冒险', '喜剧', '爱情', '科幻', '奇幻'];
 								break;
 							case 1:
-								this.multiArray[1] = ['水杯', '雨伞', '小风扇', '钥匙/钥匙扣', '其它'];
+								this.multiArray[1] = ['少年漫画', '少女漫画', '青年漫画', '儿童漫画'];
 								break;
 							case 2:
-								this.multiArray[1] = ['手机', '相机', 'U盘/硬盘', '充电宝', '平板电脑', '鼠标', '充电线', '耳机', '手写笔', '支架',
-									'音箱', 'MP3', '其它'
+								this.multiArray[1] = ['角色扮演', '战略游戏', '设计游戏', '模拟游戏', '休闲游戏'
 								];
 								break;
 							case 3:
-								this.multiArray[1] = ['口红', '粉底', '眉笔', '腮红', '眼影', '防晒', '喷雾', '香水', '其它'];
+								this.multiArray[1] = ['爱情', '科幻', '奇幻', '悬疑', '历史', '社会'];
 								break;
 							case 4:
-								this.multiArray[1] = ['男装', '女装', '男鞋', '女鞋', '包包', '其它'];
+								this.multiArray[1] = ['同人小说', '同人漫画', '同人游戏'];
 								break;
 							case 5:
-								this.multiArray[1] = ['手表', '项链', '手链', '戒指', '耳饰', '眼镜', '帽子', '发饰', '其它'];
+								this.multiArray[1] = ['动漫歌曲', '偶像团体音乐', '游戏音乐', 'Vocaloid', '音乐会', '演唱会'];
 								break;
 							case 6:
-								this.multiArray[1] = ['教材', '笔记', '文具', '球/球拍', '护具', '跳绳', '自行车', '棋牌', '其它'];
+								this.multiArray[1] = [ '动漫展', '游戏展', 'Cosplay活动', '角色扮演比赛'];
 								break;
 							case 7:
-								this.multiArray[1] = ['药品', '零食', '周边', '其它'];
+								this.multiArray[1] = ['手办','海报', '服饰', '玩具', '游戏道具'];
 								break;
 						}
 						this.multiIndex.splice(1, 1, 0);

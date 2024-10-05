@@ -9,9 +9,9 @@
 		display: flex;
 		justify-content: space-between;
 		height: 60rpx;
-
+	
 		align-items: center;
-
+	
 		position: relative;
 }
 .pubTitle .txt1 {
@@ -26,7 +26,7 @@
 		padding-right: 0rpx;
 }
 .dynamic {
-
+	
 		padding: 15rpx 0 10rpx;
 		position: relative;
 		left: 6rpx;
@@ -34,7 +34,7 @@
 .dyItem {
 		display: flex;
 		padding: 20rpx 0;
-
+	
 		justify-content: space-between;
 }
 .dyItem .pic {

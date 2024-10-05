@@ -6,7 +6,7 @@ const _sfc_main = {
     return {
       clentHeight: 0,
       activeIndex: 1,
-      leftItems: ["证件、卡片", "生活用品", "数码产品", "美妆护肤", "衣服物品", "饰品", "文娱", "其它"],
+      leftItems: ["动画", "漫画", "游戏", "小说", "同人作品", "音乐", "文化活动", "周边商品"],
       rightContents: [
         // 添加右侧内容数组
         [{ name: "毛巾", img: "../../static/img/list1.jpg" }, { name: "毛巾", img: "../../static/img/list1.jpg" }]
@@ -61,82 +61,59 @@ const _sfc_main = {
       this.activeIndex = index;
       this.rightContents = [
         [
-          { name: "身份证", img: "../../static/class/card/id.png" },
-          { name: "校园卡", img: "../../static/class/card/school.png" },
-          { name: "学生证", img: "../../static/class/card/student.png" },
-          { name: "水卡", img: "../../static/class/card/water.png" },
-          { name: "公交卡", img: "../../static/class/card/bus.png" },
-          { name: "银行卡", img: "../../static/class/card/bank.png" },
-          { name: "其它", img: "../../static/class/public/other.png" }
+          { name: "动作", img: "../../static/logos/1.png" },
+          { name: "冒险", img: "../../static/logos/2.png" },
+          { name: "喜剧", img: "../../static/logos/3.png" },
+          { name: "爱情", img: "../../static/logos/4.png" },
+          { name: "科幻", img: "../../static/logos/5.png" },
+          { name: "奇幻", img: "../../static/logos/6.png" }
         ],
         [
-          { name: "水杯", img: "../../static/class/lifeItem/water.png" },
-          { name: "雨伞", img: "../../static/class/lifeItem/umbrella.png" },
-          { name: "小风扇", img: "../../static/class/lifeItem/fan.png" },
-          { name: "钥匙", img: "../../static/class/lifeItem/key.png" },
-          { name: "其它", img: "../../static/class/public/other.png" }
+          { name: "少年漫画", img: "../../static/logos/7.png" },
+          { name: "少女漫画", img: "../../static/logos/8.png" },
+          { name: "青年漫画", img: "../../static/logos/9.png" },
+          { name: "儿童漫画", img: "../../static/logos/10.png" }
         ],
         [
-          { name: "支架", img: "../../static/class/digital/bracket.png" },
-          { name: "数据线", img: "../../static/class/digital/cable.png" },
-          { name: "相机", img: "../../static/class/digital/camera.png" },
-          { name: "耳机", img: "../../static/class/digital/earphone.png" },
-          { name: "闪存盘", img: "../../static/class/digital/flash.png" },
-          { name: "鼠标", img: "../../static/class/digital/mouse.png" },
-          { name: "MP3", img: "../../static/class/digital/mp3.png" },
-          { name: "平板电脑", img: "../../static/class/digital/pad.png" },
-          { name: "笔", img: "../../static/class/digital/pen.png" },
-          { name: "手机", img: "../../static/class/digital/phone.png" },
-          { name: "充电宝", img: "../../static/class/digital/power.png" },
-          { name: "收音机", img: "../../static/class/digital/radio.png" },
-          { name: "其它", img: "../../static/class/public/other.png" }
+          { name: "角色扮演", img: "../../static/class/digital/bracket.png" },
+          { name: "战略游戏", img: "../../static/class/digital/cable.png" },
+          { name: "设计游戏", img: "../../static/class/digital/camera.png" },
+          { name: "模拟游戏", img: "../../static/class/digital/earphone.png" },
+          { name: "休闲游戏", img: "../../static/class/digital/flash.png" }
         ],
         [
-          { name: "口红", img: "../../static/class/makeup/lipstick.png" },
-          { name: "腮红", img: "../../static/class/makeup/blush.png" },
-          { name: "喷雾", img: "../../static/class/makeup/spray.png" },
-          { name: "粉底", img: "../../static/class/makeup/foundation.png" },
-          { name: "眼影", img: "../../static/class/makeup/eyeshadow.png" },
-          { name: "香水", img: "../../static/class/makeup/perfume.png" },
-          { name: "眉笔", img: "../../static/class/makeup/eyebrow.png" },
-          { name: "防晒", img: "../../static/class/makeup/sunscreen.png" },
-          { name: "其它", img: "../../static/class/public/other.png" }
+          { name: "爱情", img: "../../static/logos/11.png" },
+          { name: "科幻", img: "../../static/logos/12.png" },
+          { name: "奇幻", img: "../../static/logos/13.png" },
+          { name: "悬疑", img: "../../static/logos/14.png" },
+          { name: "历史", img: "../../static/logos/15.png" },
+          { name: "社会", img: "../../static/logos/16.png" }
         ],
         [
-          { name: "包", img: "../../static/class/clothes/bag.png" },
-          { name: "男装", img: "../../static/class/clothes/menclothing.png" },
-          { name: "男鞋", img: "../../static/class/clothes/menshoes.png" },
-          { name: "女装", img: "../../static/class/clothes/womenclothing.png" },
-          { name: "女鞋", img: "../../static/class/clothes/womenshoes.png" },
-          { name: "其它", img: "../../static/class/public/other.png" }
+          { name: "同人小说", img: "../../static/logos/17.png" },
+          { name: "同人漫画", img: "../../static/logos/18.png" },
+          { name: "同人游戏", img: "../../static/logos/19.png" }
         ],
         [
-          { name: "手表", img: "../../static/class/jewelry/watch.png" },
-          { name: "戒指", img: "../../static/class/jewelry/ring.png" },
-          { name: "帽子", img: "../../static/class/jewelry/hat.png" },
-          { name: "项链", img: "../../static/class/jewelry/necklace.png" },
-          { name: "耳饰", img: "../../static/class/jewelry/earrings.png" },
-          { name: "发饰", img: "../../static/class/jewelry/hair.png" },
-          { name: "手链", img: "../../static/class/jewelry/bracelet.png" },
-          { name: "眼镜", img: "../../static/class/jewelry/glasses.png" },
-          { name: "其它", img: "../../static/class/public/other.png" }
+          { name: "动漫歌曲", img: "../../static/logos/20.png" },
+          { name: "偶像团体音乐", img: "../../static/logos/21.png" },
+          { name: "游戏音乐", img: "../../static/logos/22.png" },
+          { name: "Vocaloid", img: "../../static/logos/23.png" },
+          { name: "音乐会", img: "../../static/logos/24.png" },
+          { name: "演唱会", img: "../../static/logos/25.png" }
         ],
         [
-          { name: "教材", img: "../../static/class/civic/textbook.png" },
-          { name: "球/球拍", img: "../../static/class/civic/racket.png" },
-          { name: "自行车", img: "../../static/class/civic/bicyle.png" },
-          { name: "笔记", img: "../../static/class/civic/notebook.png" },
-          { name: "护具", img: "../../static/class/civic/protective.png" },
-          { name: "棋牌", img: "../../static/class/civic/chess.png" },
-          { name: "文具", img: "../../static/class/civic/stationery.png" },
-          { name: "跳绳", img: "../../static/class/civic/ropes.png" },
-          { name: "其它", img: "../../static/class/public/other.png" }
+          { name: "动漫展", img: "../../static/logos/26.png" },
+          { name: "游戏展", img: "../../static/logos/27.png" },
+          { name: "Cosplay活动", img: "../../static/logos/28.png" },
+          { name: "角色扮演比赛", img: "../../static/logos/29.png" }
         ],
         [
-          { name: "药品", img: "../../static/class/others/medicine.png" },
-          { name: "零食", img: "../../static/class/others/snacks.png" },
-          { name: "周边", img: "../../static/class/others/accessories.png" },
-          { name: "其它", img: "../../static/class/public/other.png" }
+          { name: "手办", img: "../../static/logos/30.png" },
+          { name: "海报", img: "../../static/logos/32.png" },
+          { name: "服饰", img: "../../static/logos/33.png" },
+          { name: "玩具", img: "../../static/logos/34.png" },
+          { name: "游戏道具", img: "../../static/logos/35.png" }
         ]
         // 添加其他分类的内容
       ];

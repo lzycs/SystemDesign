@@ -82,7 +82,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     g: common_assets._imports_0$1,
     h: common_assets._imports_0,
     i: common_assets._imports_0$2,
-    j: common_assets._imports_4
+    j: common_assets._imports_3
   };
 }
 const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-1cf27b2a"]]);

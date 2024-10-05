@@ -95,16 +95,16 @@ export default {
       // 根据左侧点击的索引更新右侧内容数组
       // 这里你可以根据实际情况来更新内容数组，我这里只是给出一个示例
       this.rightContents = [
-        [{ name: '动作', img: '../../static/class/card/id.png' }, 
-		{ name: '冒险', img: '../../static/class/card/school.png' },
-		 { name: '喜剧', img: '../../static/class/card/student.png' },
-		 { name: '爱情', img: '../../static/class/card/water.png' },
-		 { name: '科幻', img: '../../static/class/card/bus.png' }, 
-		 { name: '奇幻', img: '../../static/class/card/bank.png' }],
-        [{ name: '少年漫画', img: '../../static/class/lifeItem/water.png' }, 
-		{ name: '少女漫画', img: '../../static/class/lifeItem/umbrella.png' },
-		 { name: '青年漫画', img: '../../static/class/lifeItem/fan.png' },
-		 { name: '儿童漫画', img: '../../static/class/lifeItem/key.png' }],
+        [{ name: '动作', img: '../../static/logos/1.png' }, 
+		{ name: '冒险', img: '../../static/logos/2.png' },
+		 { name: '喜剧', img: '../../static/logos/3.png' },
+		 { name: '爱情', img: '../../static/logos/4.png' },
+		 { name: '科幻', img: '../../static/logos/5.png' }, 
+		 { name: '奇幻', img: '../../static/logos/6.png' }],
+        [{ name: '少年漫画', img: '../../static/logos/7.png' }, 
+		{ name: '少女漫画', img: '../../static/logos/8.png' },
+		 { name: '青年漫画', img: '../../static/logos/9.png' },
+		 { name: '儿童漫画', img: '../../static/logos/10.png' }],
 		 [
 		   { name: '角色扮演', img: '../../static/class/digital/bracket.png' },
 		   { name: '战略游戏', img: '../../static/class/digital/cable.png' },
@@ -113,41 +113,38 @@ export default {
 		   { name: '休闲游戏', img: '../../static/class/digital/flash.png' }
 		 ],
 		 [
-		   { name: '口红', img: '../../static/class/makeup/lipstick.png' },
-		   { name: '腮红', img: '../../static/class/makeup/blush.png' },
-		   { name: '喷雾', img: '../../static/class/makeup/spray.png' },
-		   { name: '粉底', img: '../../static/class/makeup/foundation.png' },
-		   { name: '眼影', img: '../../static/class/makeup/eyeshadow.png' },
-		   { name: '香水', img: '../../static/class/makeup/perfume.png' },
-		   { name: '眉笔', img: '../../static/class/makeup/eyebrow.png' },
-		   { name: '防晒', img: '../../static/class/makeup/sunscreen.png' },
-		   { name: '其它', img: '../../static/class/public/other.png' }
+		   { name: '爱情', img: '../../static/logos/11.png' },
+		   { name: '科幻', img: '../../static/logos/12.png' },
+		   { name: '奇幻', img: '../../static/logos/13.png' },
+		   { name: '悬疑', img: '../../static/logos/14.png' },
+		   { name: '历史', img: '../../static/logos/15.png' },
+		   { name: '社会', img: '../../static/logos/16.png' }
 		 ],
 		 [
-		   { name: '同人小说', img: '../../static/class/clothes/bag.png' },
-		   { name: '同人漫画', img: '../../static/class/clothes/menclothing.png' },
-		   { name: '同人游戏', img: '../../static/class/clothes/menshoes.png' }
+		   { name: '同人小说', img: '../../static/logos/17.png' },
+		   { name: '同人漫画', img: '../../static/logos/18.png' },
+		   { name: '同人游戏', img: '../../static/logos/19.png' }
 		 ],
 		 [
-		   { name: '动漫歌曲', img: '../../static/class/jewelry/watch.png' },
-		   { name: '偶像团体音乐', img: '../../static/class/jewelry/ring.png' },
-		   { name: '游戏音乐', img: '../../static/class/jewelry/hat.png' },
-		   { name: 'Vocaloid', img: '../../static/class/jewelry/necklace.png' },
-		   { name: '音乐会', img: '../../static/class/jewelry/earrings.png' },
-		   { name: '演唱会', img: '../../static/class/jewelry/hair.png' }
+		   { name: '动漫歌曲', img: '../../static/logos/20.png' },
+		   { name: '偶像团体音乐', img: '../../static/logos/21.png' },
+		   { name: '游戏音乐', img: '../../static/logos/22.png' },
+		   { name: 'Vocaloid', img: '../../static/logos/23.png' },
+		   { name: '音乐会', img: '../../static/logos/24.png' },
+		   { name: '演唱会', img: '../../static/logos/25.png' }
 		 ],
 		 [
-		   { name: '动漫展', img: '../../static/class/civic/textbook.png' },
-		   { name: '游戏展', img: '../../static/class/civic/racket.png' },
-		   { name: 'Cosplay活动', img: '../../static/class/civic/bicyle.png' },
-		   { name: '角色扮演比赛', img: '../../static/class/civic/notebook.png' }
+		   { name: '动漫展', img: '../../static/logos/26.png' },
+		   { name: '游戏展', img: '../../static/logos/27.png' },
+		   { name: 'Cosplay活动', img: '../../static/logos/28.png' },
+		   { name: '角色扮演比赛', img: '../../static/logos/29.png' }
 		 ],
 		 [
-		   { name: '手办', img: '../../static/class/others/medicine.png' },
-		   { name: '海报', img: '../../static/class/others/snacks.png' },
-		   { name: '服饰', img: '../../static/class/others/accessories.png' },
-		   { name: '玩具', img: '../../static/class/public/other.png' },
-		   { name: '游戏道具', img: '../../static/class/public/other.png' }
+		   { name: '手办', img: '../../static/logos/30.png' },
+		   { name: '海报', img: '../../static/logos/32.png' },
+		   { name: '服饰', img: '../../static/logos/33.png' },
+		   { name: '玩具', img: '../../static/logos/34.png' },
+		   { name: '游戏道具', img: '../../static/logos/35.png' }
 		 ],
 
         // 添加其他分类的内容

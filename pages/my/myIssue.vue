@@ -2,65 +2,55 @@
 	<view class="dynamic" v-if="myData">
 		<view class="container">
 
+
 			<view class="dyMain">
-				<view class="dyItem" style="display: flex;">
+				<navigator class="dyItem" url="/pages/detail/detail" bintap="handleNavigatorTap">
 					<view class="pic">
-						<image  src="/static/pictures/pic3.png" />
+						<image src="/static/pics/pic3.jpg" />
 					</view>
 					<view class="txt">
-						<view class="title">身份证</view>
-						<view class="info">时间：2024.5.1</view>
-						<view class="info">地点：行云食堂</view>
-
+						<view class="title">当所有人都重生了，除了吴邪</view>
+						<view class="info">盗墓笔记</view>
+						<view class="info">同人文</view>
 					</view>
-				</view>
-
+				</navigator>
 				<view class="divLineX"></view>
-
-				<view class="dyItem">
+				<navigator class="dyItem" url="/pages/detail/detail0/detail0" bintap="handleNavigatorTap0">
 					<view class="pic">
-						<image src="/static/pictures/pic4.jpg" mode="" />
+						<image src="/static/pics/pic2.jpg" />
 					</view>
 					<view class="txt">
-						<view class="title">钥匙串</view>
-						<view class="info">时间：2024.5.2</view>
-						<view class="info">地点：中门食堂</view>
+						<view class="title">【杭州】10.03 COMICUP </view>
+						<view class="info">同人展</view>
+						<view class="info">线下活动</view>
 					</view>
-				</view>
-
+				</navigator>
 				<view class="divLineX"></view>
-
-				<view class="dyItem">
+				<navigator class="dyItem" url="/pages/detail/detail1/detail1" bintap="handleNavigatorTap1">
 					<view class="pic">
-						<image src="/static/pictures/pic5.jpg" mode="" />
+						<image src="/static/pics/pic4.jpg" />
 					</view>
 					<view class="txt">
-						<view class="title">笔记本电脑</view>
-						<view class="info">时间：2024.5.3</view>
-						<view class="info">地点：图书馆四楼</view>
+						<view class="title">【珠海】 10.26 漫次元 万有魔力 </view>
+						<view class="info">同人展</view>
+						<view class="info">线下活动</view>
 					</view>
-				</view>
-
+				</navigator>
 				<view class="divLineX"></view>
-
-				<view class="dyItem">
+				<navigator class="dyItem" url="/pages/detail/detail2/detail2" bintap="handleNavigatorTap2">
 					<view class="pic">
-						<image src="/static/pictures/pic6.jpg" mode="" />
+						<image src="/static/pics/pic5.jpg" />
 					</view>
 					<view class="txt">
-						<view class="title">鼠标</view>
-						<view class="info">时间：2024.5.4</view>
-						<view class="info">地点：信息楼114</view>
+						<view class="title">“秋风之狩-为崽应援”同人助力活动</view>
+						<view class="info">阴阳师</view>
+						<view class="info">线上活动</view>
 					</view>
-				</view>
-<!-- 
-				<view class="divLineX"></view> -->
-            <view class="" style="font-size: 10px; display: flex; justify-content: center; margin-top: 50rpx; color: #cfcfcf;">
-				 <span>没有更多了~~</span>
+				</navigator>
+				<view class="divLineX"></view>
 			</view>
 
 
-			</view>
 			<view class="wkMain">
 			</view>
 		</view>
@@ -108,52 +98,52 @@
 		display: flex;
 		justify-content: space-between;
 		height: 60rpx;
-
+	
 		align-items: center;
-
+	
 		position: relative;
-
+	
 	}
-
+	
 	.pubTitle .txt1 {
 		font-size: 35rpx;
 		position: relative;
 		padding-left: 30rpx;
 		font-weight: bold;
 	}
-
+	
 	.pubTitle .more {
 		font-size: 30rpx;
 		color: #717375;
 		padding-right: 0rpx;
 	}
-
+	
 	.dynamic {
-
+	
 		padding: 15rpx 0 10rpx;
 		position: relative;
 		left: 6rpx;
 	}
-
+	
 	.dyItem {
 		display: flex;
 		padding: 20rpx 0;
-
+	
 		justify-content: space-between;
 	}
-
+	
 	.dyItem .pic {
 		width: 230rpx;
 		height: 150rpx;
 	}
-
+	
 	.dyItem .pic image {
 		width: 100%;
 		height: 100%;
 		padding-left: 20rpx;
-
+	
 	}
-
+	
 	.dyItem .txt {
 		width: 490rpx;
 		display: flex;
@@ -161,7 +151,7 @@
 		position: relative;
 		left: 40rpx;
 	}
-
+	
 	.dyItem .title {
 		font-size: 26rpx;
 		border-left: 100rpx;
@@ -170,7 +160,7 @@
 		font-weight: 600;
 		font-size: 26rpx;
 	}
-
+	
 	.dyItem .info {
 		font-size: 24rpx;
 		padding-top: 25rpx;
@@ -178,13 +168,13 @@
 		color: #717375;
 		text-align: left;
 	}
-
+	
 	.divLineX {
 		background: #E4E6ED;
 		width: 100%;
 		height: 1rpx;
 	}
-
+	
 	.container {
 		width: 690rpx;
 		margin-top: 20rpx;
