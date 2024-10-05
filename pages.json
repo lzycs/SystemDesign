@@ -1,0 +1,127 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+	{
+		"path": "pages/classify/classify",
+		"style": {
+			"navigationBarTitleText": "分类"
+		}
+	},
+	{
+		"path": "pages/test/test",
+		"style": {
+			"navigationBarTitleText": "测试"
+		}
+	},
+	
+	{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "首页"
+		}
+	},
+	{
+		"path" : "pages/my/myInfo",
+		"style" : 
+		{
+			"navigationBarTitleText" : "我的信息"
+		}
+	},
+		
+		{
+			"path" : "pages/detail/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "物品详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path" : "pages/demo1/demo1",
+			"style" : 
+			{
+				"navigationBarTitleText" : "发布",
+				"enablePullDownRefresh" : false
+			}
+		},
+
+		{
+			"path" : "pages/my/myIssue",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的发布"
+			}
+		},
+		{
+			"path" : "pages/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登陆"
+				
+			}
+		},
+		{
+			"path" : "pages/detail/detail0/detail0",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/detail/detail1/detail1",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/detail/detail2/detail2",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/logo/index.png",
+				"selectedIconPath": "static/logo/index_select.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"iconPath": "static/logo/classify.png",
+				"selectedIconPath": "static/logo/classify_select.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/demo1/demo1",
+				"iconPath": "static/logo/write.png",
+				"selectedIconPath": "static/logo/write_select.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/logo/my.png",
+				"selectedIconPath": "static/logo/my_select.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

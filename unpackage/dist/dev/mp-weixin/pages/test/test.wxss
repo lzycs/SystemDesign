@@ -1,0 +1,87 @@
+
+.chat-container {
+  display: flex;
+  padding: 10px;
+}
+.sidebar {
+  width: 200px;
+  margin-right: 10px;
+}
+.sidebar-title {
+  font-weight: bold;
+}
+.search-bar {
+  margin: 10px 0;
+  width: 100%;
+}
+.nav-buttons {
+  margin: 10px 0;
+}
+.clear-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+.chat-area {
+  flex: 1;
+}
+.messages {
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+.message {
+  margin: 10px 0;
+}
+.message-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.message-content {
+  max-width: 70%;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 10px;
+}
+.my-message .message-content {
+  background-color: #d1e7dd;
+}
+.assistant-message .message-content {
+  background-color: #f8d7da;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+}
+.nickname {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.message-image {
+  max-width: 100%;
+  height: auto;
+}
+.options {
+  margin-top: 20px;
+}
+.option-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.input-area {
+  display: flex;
+  margin-top: 10px;
+}
+input {
+  flex: 1;
+  padding: 5px;
+}
+button {
+  margin-left: 5px;
+}

@@ -1,0 +1,99 @@
+
+	/* 轮播图样式 */
+.banner-box.data-v-2691c87b {
+		background-color: #fff;
+		/* 设置轮播图盒子的背景色 */
+		padding-left: 0px;
+		padding-right: 8px;
+		position: relative;
+		/* 添加相对定位 */
+		z-index: 1;
+		/* 设置较小的 z-index 值 */
+}
+.banner.data-v-2691c87b,
+	.banner image.data-v-2691c87b {
+		width: 750rpx;
+		height: 400rpx;
+		/* 设置轮播图高度 */
+}
+
+	/* 物品详情介绍样式 */
+.item-details-box.data-v-2691c87b {
+		background-color: #fffce7;
+		/* 设置物品详情介绍盒子的背景色 */
+		padding: 20px;
+		/* 设置内边距 */
+		margin-top: 5px;
+		/* 设置负的 margin-top 以向上移动 */
+		border-radius: 18px 18px 0 0;
+		/* 上面两个角为圆角，下面两个角为方角 */
+		position: relative;
+		/* 添加相对定位 */
+		top: -10px;
+		/* 向上偏移 10px */
+		z-index: 2;
+		/* 设置较大的 z-index 值 */
+}
+.item-info-box.data-v-2691c87b,
+	.item-description-box.data-v-2691c87b,
+	.contact-info-box.data-v-2691c87b {
+		position: relative;
+		display: flex;
+		align-items: center;
+		margin-top: 15px;
+		/* 调整内部与外部的距离 */
+		margin-bottom: 15px;
+		/* 调整内部与外部的距离 */
+		font-weight: bold;
+		font-family: fangsong;
+}
+.info-icon.data-v-2691c87b {
+		width: 20px;
+		height: 20px;
+		margin-right: 10px;
+}
+.item-info.data-v-2691c87b,
+	.item-description.data-v-2691c87b {
+		flex: 1;
+}
+.divider.data-v-2691c87b {
+		height: 1px;
+		background-color: #bce9f7;
+		margin: 10px 0;
+}
+.item-description.data-v-2691c87b {
+		line-height: 1.5;
+		/* 设置行高 */
+}
+
+	/* 拾到者联系方式样式 */
+.contact-info-box.data-v-2691c87b {
+		background-color: #ffffff;
+		/* 设置底色 */
+		padding: 10px;
+		margin-top: 20px;
+		/* 添加间距 */
+		margin-bottom: 20px;
+		/* 添加间距 */
+		border-radius: 10px;
+		/* 设置圆角 */
+		font-weight: bold;
+		font-family: fangsong;
+}
+.tip-text.data-v-2691c87b {
+		font-weight: bold;
+		color: #FF5733;
+		/* 将“温馨提示”四字的颜色更改为橙色 */
+}
+.item-description.data-v-2691c87b {
+		line-height: 1.5;
+		/* 设置行高 */
+}
+.contact-info-text.data-v-2691c87b {
+		font-weight: bold;
+		font-family: fangsong;
+}
+.item-description.data-v-2691c87b {
+		line-height: 1.5;
+		/* 设置行高 */
+}
